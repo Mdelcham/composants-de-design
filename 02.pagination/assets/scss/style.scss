@@ -1,0 +1,35 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    .center {
+        text-align: center;
+    }
+
+    .pagination {
+        display: inline-block;
+        a {
+            color: white;
+            float: left;
+            padding: 8px 25px;
+            text-decoration: none;
+            transition: background-color .3s;
+            border: 1px solid #ddd;
+            margin: 0 4px;
+            background-color:#3E454F;
+            border-radius: 5px;
+
+        }
+        #active{
+            background-color: #299AE3;
+            color: white;
+            border: 1px solid #299AE3;
+        }
+        #none{
+            color: black;
+            background-color: white;
+            border:none;
+        }
+        img{
+            width: 16px;
+        }
+    }
+}

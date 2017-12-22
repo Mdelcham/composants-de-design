@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>fiche médicale</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+	<div class="title">
+		<h1>Emergency Contact and Medical Information</h1>
+	</div>
+	<form>
+		<div class="part1">
+    		<div class="nom">
+        		<label for="nom">Name</label>
+        		<div>
+        			<input type="text" id="first" />
+        			<label for="name">First</label>
+        			<input type="text" id="last" />
+        			<label for="name">Last</label>
+    			</div>
+    		</div>
+    		<div>
+        		<label for="gender">Gender</label>
+				<select name="select">
+  					<option value="value1">Male</option>
+ 					<option value="value2">Female</option>
+				</select>
+				<form>
+    				<label for="bday">Date of birth</label>
+    				<input type="date" id="bday" name="bday">
+				</form>
+			</div>
+		</div>
+	</form>
+	<form>
+		<div class="part2">
+			<h2>Emergency Contact</h2>
+			<div>
+        		<label for="nom">Name</label>
+        		<input type="text" id="first" />
+        		<input type="text" id="last" />
+        		<label>Relationship</label>
+        		<input type="text" id="relation">
+    		</div>
+    		<div>
+    			<label>Adress</label>
+    			<input type="text" id="">
+    		</div>
+    		<div>
+    			<label>Adress 2</label>
+    		<input type="adress2" name="">
+			</div>
+			<div>
+				<label>City</label>
+				<input type="text">
+				<label>State/Province/Region</label>
+				<input type="text">
+			</div>
+			<div>
+				<label>Postal/Zip</label>
+				<input type="text">
+				<label>Country</label>
+				<select name="select">
+					<option value="be">Belgium </option>
+					<option value="fr">France </option>
+					<option value="nl">Netherlands </option>
+					<option value="sp">Spain</option>
+					<option value="it">Italy </option>
+					<option value="uk">United-Kingdom</option>
+				</select>
+			</div>
+			<div>
+				<label for="">Home Phone</label>
+				<input type="text">
+				<label for="">Work Phone</label>
+				<input type="text">
+			</div>
+		</div>
+	</form>
+	<form>
+		<h2>Medical information</h2>
+		<div>
+			<label>Hospital/Clinic preference</label>
+			<input type="text">
+		</div>
+		<div>
+			<label for="">Insurance Company</label>
+			<input type="text">
+			<label for="">Policy number</label>
+			<input type="text">
+		</div>
+		<div>
+			<label for="">Physician's name</label>
+			<input type="text">
+			<label for="">Phone number</label>
+			<input type="text">
+		</div>
+		<div>
+			<label>Allergies/Special Health Considerations</label>
+			<input type="text">
+		</div>
+	</form>
+</body>
+</html>
+
+

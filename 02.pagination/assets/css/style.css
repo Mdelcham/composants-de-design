@@ -1,0 +1,28 @@
+body {
+  font-family: 'Roboto', sans-serif; }
+  body .center {
+    text-align: center; }
+  body .pagination {
+    display: inline-block; }
+    body .pagination a {
+      color: white;
+      float: left;
+      padding: 8px 25px;
+      text-decoration: none;
+      transition: background-color .3s;
+      border: 1px solid #ddd;
+      margin: 0 4px;
+      background-color: #3E454F;
+      border-radius: 5px; }
+    body .pagination #active {
+      background-color: #299AE3;
+      color: white;
+      border: 1px solid #299AE3; }
+    body .pagination #none {
+      color: black;
+      background-color: white;
+      border: none; }
+    body .pagination img {
+      width: 16px; }
+
+/*# sourceMappingURL=style.css.map */
