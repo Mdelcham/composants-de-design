@@ -1,16 +1,20 @@
-* {
+body {
   font-family: 'Roboto', sans-serif; }
-  * .text {
+  body .text {
     text-align: center; }
-  * .button {
-    padding: 15px 25px 15px 25px;
-    background-color: #5BBF8F;
-    color: white;
-    border: none;
-    border-radius: 2px;
-    font-size: 16px;
-    font-weight: bold; }
-  * span {
-    color: #5BBF8F; }
+    body .text .button {
+      padding: 15px 25px 15px 25px;
+      background-color: #5BBF8F;
+      color: white;
+      border: none;
+      border-radius: 2px;
+      font-size: 16px;
+      font-weight: bold; }
+    body .text span {
+      color: #5BBF8F; }
+    body .text h1 {
+      font-family: 'Oranienbaum', serif;
+      font-size: 45px;
+      font-weight: bold; }
 
 /*# sourceMappingURL=style.css.map */

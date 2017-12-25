@@ -1,0 +1,18 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	background-image: url(../images/hero.jpg);
+	background-position: 100% 10%;
+	background-repeat: no-repeat;
+	background-size: 70%;
+	.container{
+		margin-left: 100px;
+		margin-top: 125px;
+
+	}
+	.button{
+		background-color: #E7BB4F;
+		border: none;
+		border-radius: 2px;
+		padding: 15px 10px 15px 10px;
+	}
+}
