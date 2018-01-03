@@ -1,0 +1,30 @@
+body{
+	background-color: #161616;
+	.container{
+		width: 850px;
+		background-color: white;
+		margin-top: 50px;
+		.digg{
+			background-color:yellow;
+			margin-top: 10px;
+			border-top-left-radius: 10px;
+			border-bottom-right-radius: 10px;
+		}
+		.col-md-offset-2{
+			margin-left: 24%;
+		}
+		.number{
+			text-align: center;
+			font-size: 50px;
+			opacity: 0.1;
+		}
+		h3{
+			font-size: 20px;
+			font-weight: bold;
+			color: #3E9CC1;
+		}
+		span{
+			color: #3E9CC1;
+		}
+	}
+}

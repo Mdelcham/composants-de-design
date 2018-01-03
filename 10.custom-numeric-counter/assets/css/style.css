@@ -1,0 +1,25 @@
+body {
+  background-color: #161616; }
+  body .container {
+    width: 850px;
+    background-color: white;
+    margin-top: 50px; }
+    body .container .digg {
+      background-color: yellow;
+      margin-top: 10px;
+      border-top-left-radius: 10px;
+      border-bottom-right-radius: 10px; }
+    body .container .col-md-offset-2 {
+      margin-left: 24%; }
+    body .container .number {
+      text-align: center;
+      font-size: 50px;
+      opacity: 0.1; }
+    body .container h3 {
+      font-size: 20px;
+      font-weight: bold;
+      color: #3E9CC1; }
+    body .container span {
+      color: #3E9CC1; }
+
+/*# sourceMappingURL=style.css.map */
